@@ -628,7 +628,7 @@ def configure(conf):
 	# And here C++ flags starts to be treated separately
 	cxxflags = list(cflags)
 	if conf.env.DEST_OS != 'win32':
-		cxxflags += ['-std=c++26','-fpermissive']
+		cxxflags += ['-std=c++11','-fpermissive']
 	else:
 		cxxflags += ['/std:c++latest']
 
