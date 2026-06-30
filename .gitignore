@@ -34,7 +34,6 @@ build*/
 .cache/
 .ccache/
 waf3*/
-.vscode/
 .depproj/
 source-engine.sln
 *.cache
