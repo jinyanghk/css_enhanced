@@ -11,7 +11,9 @@ You also need:
 - zstd library
 
 To compile for CS:S Enhanced a command line can look like so:
-```./waf configure clangdb install -p -o build -T fastnative --prefix ./gamedata/css_enhanced/game```
+```
+./waf configure clangdb install -p -o build -T debug --dxvk false --prefix ./gamedata/css_enhanced/game
+```
 
 - `clangdb` generates compilation database for LSP
 - `install` installs into the prefix `../css_enhanced` the binaries
